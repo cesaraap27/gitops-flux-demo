@@ -11,7 +11,7 @@ spec:
       image: ghcr.io/sngular/gitops-echobot:v0.1.0
       env:
         - name: CHARACTER
-          value: "Estamos utilizando gitops en nuestro entorno"
+          value: "Estamos utilizando gitops en nuestro entorno - it's Works"
       resources:
         requests:
           cpu: 10m
