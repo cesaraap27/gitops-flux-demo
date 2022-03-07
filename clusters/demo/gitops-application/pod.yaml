@@ -5,17 +5,17 @@ metadata:
   namespace: gitops-application
   labels:
     app: echobot
-spec:
-  containers:
-    - name: message
-      image: ghcr.io/sngular/gitops-echobot:v0.1.0
-      env:
-        - name: CHARACTER
-          value: "Estamos utilizando gitops en nuestro entorno - Funciona"
-      resources:
-        requests:
-          cpu: 10m
-          memory: 30Mi
-        limits:
-          cpu: 10m
-          memory: 30Mi
+# spec:
+#  containers:
+#    - name: message
+#      image: ghcr.io/sngular/gitops-echobot:v0.1.0
+#      env:
+#        - name: CHARACTER
+#          value: "Estamos utilizando gitops en nuestro entorno - Funciona"
+#      resources:
+#        requests:
+#          cpu: 10m
+#          memory: 30Mi
+#        limits:
+#          cpu: 10m
+#          memory: 30Mi
